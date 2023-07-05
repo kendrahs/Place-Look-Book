@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(179, 166, 255);
+    font-family:'Ysabeau SC', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro{
+    border: 15px dotted rgb(255, 239, 216);
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 20px;;
+}
+
+.intro-pics{
+    margin: 2px;
+    height: 150px;
+    width: auto;
+    margin-top: 40px;
+    border: 3px dotted rgb(255, 159, 14);
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+
+#intro-text{
+    margin-bottom: 7px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#intro-date{
+    font-family: 'Ysabeau SC', sans-serif; 
+    font-weight: 100;
+    margin-top: 9px;
+}
+
+#intro-date{
+    margin-bottom: 9px;
+    font-weight: 200
+}
+
+.lookbook{
+    font-size: large;
+    font-weight: 100;
+    color: rgb(54, 83, 92);
+    text-shadow: 0 1px 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.locations{
+    text-align: center;
+    border: solid black;
+    background: url("images/blue\ cover.jfif");
+    height: 180px;
+    width: 150px;
+}
+
+#location-1:hover{
+    background-image: url("images/clinton\ hill.jpg");
+    background-size: cover;
+}
+
+#location-2:hover{
+    background-image: url("images/east\ new\ york.jpg");
+    background-size: cover;
+}
+
+#location-3:hover{
+    background-image: url("images/east\ flatbush.jpg");
+    background-size: cover;
+}
+
+#location-4:hover{
+    background-image: url("images/atlantic\ ave.jpg");
+    background-size: cover;
+}
